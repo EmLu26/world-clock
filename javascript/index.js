@@ -49,9 +49,9 @@ function updateCity(event) {
   let cityName = cityTimeZone
     .replace("_", " ")
     .split("/")[1]
-    .replace("America/Los_Angeles", "San Diego")
-    .replace("Europe/London", "Manchester")
-    .replace("Pacific/Auckland", "Queenstown");
+    .replace("Los Angeles", "San Diego")
+    .replace("London", "Manchester")
+    .replace("Auckland", "Queenstown");
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `

@@ -11,44 +11,46 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">San Diego</option>
-        <option value="">Manchester</option>
-        <option value="">Singapore</option>
-        <option value="">Queenstown</option>
+        <option value="America/Los_Angeles">San Diego</option>
+        <option value="Europe/London">Manchester</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Pacific/Auckland">Queenstown</option>
       </select>
 
-      <div class="city" id="san-diego">
-        <div>
-          <h2>San Diego 🇺🇸</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="san-diego">
+          <div>
+            <h2>San Diego 🇺🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="manchester">
-        <div>
-          <h2>Manchester 🇬🇧</h2>
-          <div class="date"></div>
+        <div class="city" id="manchester">
+          <div>
+            <h2>Manchester 🇬🇧</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="singapore">
-        <div>
-          <h2>Singapore 🇸🇬</h2>
-          <div class="date"></div>
+        <div class="city" id="singapore">
+          <div>
+            <h2>Singapore 🇸🇬</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="queenstown">
-        <div>
-          <h2>Queenstown 🇳🇿</h2>
-          <div class="date"></div>
+        <div class="city" id="queenstown">
+          <div>
+            <h2>Queenstown 🇳🇿</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
